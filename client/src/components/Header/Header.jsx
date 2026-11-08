@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <a href="#main" className="skip-link">Перейти к основному содержимому</a>
-      <Navbar as="header" bg="white" className="border-bottom py-2" sticky="top">
+      <Navbar as="header" role="banner" bg="white" className="border-bottom py-2" sticky="top">
         <Container>
           <Navbar.Brand as={Link} to="/catalog" aria-label="пиксельмаркет — на главную">
             <img src={logo} alt="" width="168" height="32" />
